@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Img/mbFPwKE=",
+  "dgSpecHash": "UxJCdCvWf9U=",
   "success": true,
   "projectFilePath": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Service\\BlogSite.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\imano\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\imano\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\imano\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\imano\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

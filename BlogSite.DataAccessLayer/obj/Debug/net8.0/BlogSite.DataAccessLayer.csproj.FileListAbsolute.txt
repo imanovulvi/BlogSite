@@ -17,3 +17,4 @@ C:\Users\imano\source\repos\BlogSite\BlogSite.DataAccessLayer\obj\Debug\net8.0\r
 C:\Users\imano\source\repos\BlogSite\BlogSite.DataAccessLayer\obj\Debug\net8.0\BlogSite.DataAccessLayer.pdb
 C:\Users\imano\source\repos\BlogSite\BlogSite.DataAccessLayer\obj\Debug\net8.0\BlogSite.DataAccessLayer.genruntimeconfig.cache
 C:\Users\imano\source\repos\BlogSite\BlogSite.DataAccessLayer\obj\Debug\net8.0\ref\BlogSite.DataAccessLayer.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.DataAccessLayer\obj\Debug\net8.0\BlogSite.DataAccessLayer.sourcelink.json

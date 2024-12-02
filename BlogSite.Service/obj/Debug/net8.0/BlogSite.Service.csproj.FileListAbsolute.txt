@@ -17,3 +17,4 @@ C:\Users\imano\source\repos\BlogSite\BlogSite.Service\obj\Debug\net8.0\BlogSite.
 C:\Users\imano\source\repos\BlogSite\BlogSite.Service\obj\Debug\net8.0\refint\BlogSite.Service.dll
 C:\Users\imano\source\repos\BlogSite\BlogSite.Service\obj\Debug\net8.0\BlogSite.Service.pdb
 C:\Users\imano\source\repos\BlogSite\BlogSite.Service\obj\Debug\net8.0\ref\BlogSite.Service.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Service\obj\Debug\net8.0\BlogSite.Service.sourcelink.json

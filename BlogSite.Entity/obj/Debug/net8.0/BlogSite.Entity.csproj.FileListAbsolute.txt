@@ -13,3 +13,4 @@ C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.E
 C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\refint\BlogSite.Entity.dll
 C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.pdb
 C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\ref\BlogSite.Entity.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.sourcelink.json

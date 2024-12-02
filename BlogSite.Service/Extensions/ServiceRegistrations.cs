@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,9 +14,10 @@ namespace BlogSite.Service.Extensions
     {
         public static IServiceCollection AddService(this IServiceCollection services)
         {
-         
 
+            var asm = Assembly.GetExecutingAssembly();
 
+            services.AddAutoMapper(asm);
             services.AddScoped(typeof(IArticleService), typeof(ArticleService));
             return services;
         }
