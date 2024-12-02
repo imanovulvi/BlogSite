@@ -1,0 +1,11 @@
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\bin\Debug\net8.0\BlogSite.Core.deps.json
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\bin\Debug\net8.0\BlogSite.Core.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\bin\Debug\net8.0\BlogSite.Core.pdb
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.AssemblyInfoInputs.cache
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.AssemblyInfo.cs
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.csproj.CoreCompileInputs.cache
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\refint\BlogSite.Core.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.pdb
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\ref\BlogSite.Core.dll

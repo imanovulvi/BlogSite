@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BlogSite.Entity/1.0.0": {
+        "dependencies": {
+          "BlogSite.Core": "1.0.0"
+        },
+        "runtime": {
+          "BlogSite.Entity.dll": {}
+        }
+      },
+      "BlogSite.Core/1.0.0": {
+        "runtime": {
+          "BlogSite.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlogSite.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogSite.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

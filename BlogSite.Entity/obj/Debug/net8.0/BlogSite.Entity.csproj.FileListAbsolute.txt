@@ -1,0 +1,15 @@
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\bin\Debug\net8.0\BlogSite.Entity.deps.json
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\bin\Debug\net8.0\BlogSite.Entity.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\bin\Debug\net8.0\BlogSite.Entity.pdb
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\bin\Debug\net8.0\BlogSite.Core.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\bin\Debug\net8.0\BlogSite.Core.pdb
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.csproj.AssemblyReference.cache
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.AssemblyInfoInputs.cache
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.AssemblyInfo.cs
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.csproj.CoreCompileInputs.cache
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.E2E2FBDA.Up2Date
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\refint\BlogSite.Entity.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\BlogSite.Entity.pdb
+C:\Users\imano\source\repos\BlogSite\BlogSite.Entity\obj\Debug\net8.0\ref\BlogSite.Entity.dll
