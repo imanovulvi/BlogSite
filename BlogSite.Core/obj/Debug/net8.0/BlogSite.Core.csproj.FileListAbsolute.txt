@@ -9,3 +9,4 @@ C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Cor
 C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\refint\BlogSite.Core.dll
 C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.pdb
 C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\ref\BlogSite.Core.dll
+C:\Users\imano\source\repos\BlogSite\BlogSite.Core\obj\Debug\net8.0\BlogSite.Core.sourcelink.json
