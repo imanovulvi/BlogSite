@@ -14,6 +14,15 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDALService(builder.Configuration);
 builder.Services.AddService();
 
+builder.Services.AddAuthentication("Cookies")
+    .AddCookie("Cookies", options =>
+    {
+
+        options.LoginPath = "/admin/auth/index";
+        options.LogoutPath = "/admin/auth/logout";
+        options.Cookie.Name = "MyAuthCookie";
+    });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +37,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

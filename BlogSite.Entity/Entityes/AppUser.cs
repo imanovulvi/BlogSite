@@ -10,4 +10,5 @@ namespace BlogSite.Entity.Entityes;
 public class AppUser:IdentityUser<Guid>
 {
     public string FullName { get; set; }
+    public ICollection<Article> Articles { get; set; }
 }
