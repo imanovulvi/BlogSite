@@ -969,12 +969,28 @@
       "PackagePath": "staticwebassets\\admin_template_sneat-1.0.0\\yarn.lock"
     },
     {
+      "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\css\\dataTable\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTable\\dataTables.bootstrap4.min.css"
+    },
+    {
       "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\js\\dataTable\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTable\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\js\\dataTable\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTable\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\js\\dataTable\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTable\\jquery.dataTables.min.js"
     },
     {
       "Id": "C:\\Users\\imano\\source\\repos\\BlogSite\\BlogSite.Web\\wwwroot\\js\\site.js",

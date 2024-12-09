@@ -12,16 +12,16 @@ public class ArticleService : IArticleService
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
 
-    public ArticleService(IUnitOfWork unitOfWork, IMapper mapper)
+    public ArticleService(IUnitOfWork unitOfWork,IMapper mapper)
     {
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
 
-    public async Task<List<ResultArticleDTO>> GetAllAsync()
+    public async Task<List<ResultArticleDTO>> GetAllAsync(bool IsDelete)
     {
 
-        var result = _mapper.Map<List<Article>, List<ResultArticleDTO>>(await _unitOfWork.Repository<Article>().GetAllAsync(x => x.IsDelete == false));
+        var result = _mapper.Map<List<Article>, List<ResultArticleDTO>>(await _unitOfWork.Repository<Article>().GetAllAsync(x => x.IsDelete == IsDelete,x=>x.Category));
         return result;
     }
 
@@ -31,4 +31,10 @@ public class ArticleService : IArticleService
 
 
     }
-}
+
+    public async Task AddAsync(CreateArticleDTO createArticle)
+    { 
+       await  _unitOfWork.Repository<Article>().AddAsync(_mapper.Map<CreateArticleDTO, Article>(createArticle));
+       await  _unitOfWork.SaveAsync();
+    }
+    }

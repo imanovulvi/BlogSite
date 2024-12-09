@@ -10,7 +10,8 @@ namespace BlogSite.Service.Services.Abstractions
 {
     public interface IArticleService
     {
-        Task<List<ResultArticleDTO>> GetAllAsync();
+        Task<List<ResultArticleDTO>> GetAllAsync(bool IsDelete);
         Task<ResultArticleDTO> GetByIdAsync(Guid id);
+        Task AddAsync(CreateArticleDTO createArticle);
     }
 }

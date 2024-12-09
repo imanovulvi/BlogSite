@@ -19,6 +19,7 @@ namespace BlogSite.Service.Extensions
 
             services.AddAutoMapper(asm);
             services.AddScoped(typeof(IArticleService), typeof(ArticleService));
+            services.AddScoped(typeof(ICategoryService), typeof(CategoryService));
             return services;
         }
 

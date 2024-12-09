@@ -32,7 +32,7 @@ namespace BlogSite.DataAccessLayer.Repository.Concretes
             return true;
         }
 
-        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, bool>>[] includes)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T,object>>[] includes)
         {
             IQueryable<T> query = Table;
             if (predicate is not null)
@@ -41,6 +41,7 @@ namespace BlogSite.DataAccessLayer.Repository.Concretes
                 foreach (var item in includes)
                     query = query.Include(item);
 
+       
           return  await query.ToListAsync();
 
         }
@@ -50,7 +51,7 @@ namespace BlogSite.DataAccessLayer.Repository.Concretes
          return  await Table.FirstOrDefaultAsync(x=>x.Id==id);
         }
 
-        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, bool>>[] includes)
+        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes)
         {
             IQueryable<T> query = Table;
             if (predicate is not null)

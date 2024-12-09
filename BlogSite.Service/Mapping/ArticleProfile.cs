@@ -14,6 +14,7 @@ namespace BlogSite.Service.Mapping
         public ArticleProfile()
         {
             CreateMap<Article,ResultArticleDTO>().ReverseMap();
+            CreateMap<Article,CreateArticleDTO>().ReverseMap();
         }
     }
 }

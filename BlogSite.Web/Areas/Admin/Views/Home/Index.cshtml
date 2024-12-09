@@ -1,7 +1,51 @@
-﻿
+﻿@using BlogSite.Entity.DTOs.Article
+
 @{
     ViewData["Title"] = "Index";
 }
+@model List<ResultArticleDTO>
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <a href="/admin/home/add" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Add</a>
+    <h2 class="mb-4">Bootstrap DataTable Örneği</h2>
+    <table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Category</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Content</td>
+                    <td>@item.Category.Name</td>
+                    
+                </tr>
+            }
+
+           
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+<div class="d-flex align-items-end row">
+    <div class="col-sm-7">
+        <div class="card-body">
+
+
+        </div>
+    </div>
+ 
+</div>
 

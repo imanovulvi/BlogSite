@@ -37,7 +37,7 @@ public class AuthController : Controller
                     List<Claim> claims = new List<Claim>()
                     {
                         new Claim("FullName",appUser.FullName),
-                        new Claim("Id",appUser.Id.ToString())
+                        new Claim(ClaimTypes.NameIdentifier,appUser.Id.ToString())
                     };
                     ClaimsIdentity ci = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     ClaimsPrincipal cp = new ClaimsPrincipal(ci);
