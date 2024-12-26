@@ -13,5 +13,7 @@ namespace BlogSite.Service.Services.Abstractions
         Task<List<ResultArticleDTO>> GetAllAsync(bool IsDelete);
         Task<ResultArticleDTO> GetByIdAsync(Guid id);
         Task AddAsync(CreateArticleDTO createArticle);
+        Task UpdateAsync(UpdateArticleDTO updateArticle);
+        Task DeleteAsync(Guid id);
     }
 }

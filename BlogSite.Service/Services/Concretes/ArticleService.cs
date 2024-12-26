@@ -12,7 +12,7 @@ public class ArticleService : IArticleService
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
 
-    public ArticleService(IUnitOfWork unitOfWork,IMapper mapper)
+    public ArticleService(IUnitOfWork unitOfWork, IMapper mapper)
     {
         _unitOfWork = unitOfWork;
         _mapper = mapper;
@@ -21,7 +21,7 @@ public class ArticleService : IArticleService
     public async Task<List<ResultArticleDTO>> GetAllAsync(bool IsDelete)
     {
 
-        var result = _mapper.Map<List<Article>, List<ResultArticleDTO>>(await _unitOfWork.Repository<Article>().GetAllAsync(x => x.IsDelete == IsDelete,x=>x.Category));
+        var result = _mapper.Map<List<Article>, List<ResultArticleDTO>>(await _unitOfWork.Repository<Article>().GetAllAsync(x => x.IsDelete == IsDelete, x => x.Category));
         return result;
     }
 
@@ -33,8 +33,19 @@ public class ArticleService : IArticleService
     }
 
     public async Task AddAsync(CreateArticleDTO createArticle)
-    { 
-       await  _unitOfWork.Repository<Article>().AddAsync(_mapper.Map<CreateArticleDTO, Article>(createArticle));
-       await  _unitOfWork.SaveAsync();
+    {
+        await _unitOfWork.Repository<Article>().AddAsync(_mapper.Map<CreateArticleDTO, Article>(createArticle));
+        await _unitOfWork.SaveAsync();
     }
+    public async Task UpdateAsync(UpdateArticleDTO updateArticle)
+    {
+        await _unitOfWork.Repository<Article>().UpdateAsync(_mapper.Map<UpdateArticleDTO, Article>(updateArticle));
+        await _unitOfWork.SaveAsync();
     }
+    public async Task DeleteAsync(Guid id)
+    {
+        var article=await _unitOfWork.Repository<Article>().GetByIdAsync(id); 
+        await _unitOfWork.Repository<Article>().DeleteAsync(article);
+        await _unitOfWork.SaveAsync();
+    }
+}
